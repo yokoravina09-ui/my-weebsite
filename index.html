@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chito's Restaurant | Uulit ka sa Sarap! - Lucban, Quezon</title>
+  <meta name="description" content="Chito's Restaurant in Lucban, Quezon. Serving mouthwatering Pancit Habhab, Silog meals, grilled Pork Barbecue, and specialty pizzas since April 1, 2009. Curbside pickup and dine-in available.">
+  <meta name="keywords" content="Chitos Restaurant, Lucban Quezon, Pancit Habhab, PorkSilog, Pork Barbecue, Pizza Lucban, Curbside Pickup, Fast Food Restaurant Lucena">
+  <meta name="author" content="Chito's Restaurant">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Chito's Restaurant | Uulit ka sa Sarap!">
+  <meta property="og:description" content="Enjoy authentic Quezon favorites, hearty Silogs, savory BBQ, and handcrafted pizzas at Chito's Restaurant. Serving Lucban and Lucena since 2009.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:image" content="./assets/icon.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Relative Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="./assets/icon.jpg">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar Landmark -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      <a href="#top" class="brand" aria-label="Chito's Restaurant Home">
+        <img src="./assets/icon.jpg" alt="Chito's Restaurant official chicken mascot logo" class="brand-logo" width="54" height="54">
+        <div class="brand-text">
+          <span class="brand-title">Chito's</span>
+          <span class="brand-tagline">Uulit ka sa Sarap!</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary Navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu &amp; Specialties</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary nav-cta">Inquire / Order</a>
+        </div>
+      </nav>
+
+      <!-- Header Controls: Theme Mode Toggle & Mobile Hamburger -->
+      <div class="header-controls">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Toggle dark or light mode">
+          <span class="theme-icon-sun" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon-moon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home" aria-label="Welcome and Restaurant Highlights">
+      <div class="hero-background-wrapper" aria-hidden="true">
+        <img src="./assets/image-background.jpg" alt="Festive Chito's Restaurant entrance decorated with traditional umbrellas and colorful fans in Lucban" class="hero-bg-image">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge-wrap">
+          <span class="hero-badge">
+            <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            Est. April 1, 2009 &bull; Lucban, Quezon
+          </span>
+          <span class="status-badge open-now" aria-label="Currently open for service">
+            <span class="status-dot" aria-hidden="true"></span> Open Now
+          </span>
+        </div>
+
+        <h1 class="hero-headline">Authentic Quezon Flavors &amp; Comfort Food Favorites</h1>
+        <p class="hero-subtext">
+          From sizzling Silog plates and grilled pork barbecue to authentic Pancit Habhab and handcrafted specialty pizzas, experience the heart of Lucban dining. Made fresh daily with generous portions—dahil sigurado, <strong>uulit ka sa sarap!</strong>
+        </p>
+
+        <!-- Quick Facts Pill Row -->
+        <div class="hero-features" aria-label="Restaurant features">
+          <div class="feature-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1 .4-1 1v7c0 .6.4 1 1 1h1"></path>
+              <circle cx="7" cy="17" r="2"></circle>
+              <path d="M9 17h6"></path>
+              <circle cx="17" cy="17" r="2"></circle>
+            </svg>
+            <span>Curbside Pickup</span>
+          </div>
+          <div class="feature-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+              <circle cx="12" cy="12" r="2"></circle>
+              <path d="M6 12h.01M18 12h.01"></path>
+            </svg>
+            <span>Price Range: 300PHP to 999PHP</span>
+          </div>
+          <div class="feature-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+            </svg>
+            <span>52% Customer Recommended</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+          <a href="#contact" class="btn btn-secondary btn-lg">Order for Pickup</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Content: About Section -->
+    <section class="about-section" id="about" aria-label="About Chito's Restaurant">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Our Heritage &amp; Story</span>
+          <h2 class="section-title">Bringing Families Together Since 2009</h2>
+          <p class="section-lead">Founded on April 1, 2009 in the historic town of Lucban, Chito's has grown into a beloved destination for both locals and travelers exploring Quezon Province.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="about-card-title">Authentic Local Recipes</h3>
+            <p class="about-card-text">Every plate of Pancit Habhab is prepared using time-honored Lucban methods, fresh local vegetables, and native vinegar condiments for genuine Quezon flavor.</p>
+          </article>
+
+          <article class="about-card">
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="about-card-title">Pamilya Salo-Salo Spirit</h3>
+            <p class="about-card-text">We believe in hearty portions that feed the entire family. Our signature salo-salo feast bundles are designed to make gatherings memorable and affordable.</p>
+          </article>
+
+          <article class="about-card">
+            <div class="about-card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="about-card-title">Curbside Pickup Convenience</h3>
+            <p class="about-card-text">On the go or rushing home? Call our direct hotline (042) 540 9262 and our friendly staff will bring your freshly packed meal right to your car at 35 Plaridel St.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Content: Menu & Interactive Component Section -->
+    <section class="menu-section" id="menu" aria-label="Menu and Featured Dishes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Taste The Tradition</span>
+          <h2 class="section-title">Our Signature Menu &amp; Specials</h2>
+          <p class="section-lead">Explore customer-favorite family bundles, artisan pizzas, sizzling silogs, and traditional Quezon specialties.</p>
+        </div>
+
+        <!-- Interactive Component Container: Category Filter Tabs -->
+        <div class="menu-filter-container" role="region" aria-label="Menu category filters">
+          <div class="tab-list" role="tablist" aria-label="Filter food categories">
+            <button type="button" role="tab" aria-selected="true" aria-controls="menu-grid" class="filter-tab active" data-category="all" id="tab-all">
+              All Dishes
+            </button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="menu-grid" class="filter-tab" data-category="bundles" id="tab-bundles">
+              Family Bundles
+            </button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="menu-grid" class="filter-tab" data-category="pizzas" id="tab-pizzas">
+              Pizzas
+            </button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="menu-grid" class="filter-tab" data-category="silog-bbq" id="tab-silog-bbq">
+              Silog &amp; BBQ
+            </button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="menu-grid" class="filter-tab" data-category="heritage" id="tab-heritage">
+              Lucban Specials
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Menu Items Grid -->
+        <div class="menu-grid" id="menu-grid" role="region" aria-live="polite" aria-atomic="true">
+
+          <!-- Item 1: Pamilya Salo-salo -->
+          <article class="menu-card" data-category="bundles">
+            <div class="card-media">
+              <img src="./assets/image1.jpg" alt="Chito's Pamilya Salo-salo feast including pizza, Pancit Habhab, roasted chicken, rice cups, gelatin dessert, and blue drink" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-bestseller">Top Value Promo</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Pamilya Salo-Salo Feast</h3>
+                <span class="card-price">&#8369;1,699</span>
+              </div>
+              <p class="card-savings-pill">Save as much as &#8369;170</p>
+              <p class="card-desc">
+                The ultimate family celebration! Includes 1 large specialty pizza, a savory platter of Pancit Habhab, whole roasted chicken, steamed rice cups, Cathedral Window gelatin dessert, and a refreshing pitcher of Blue Lemonade.
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">Serves 5-7 Persons</span>
+                <span class="meta-tag">Complete Meal</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Pamilya Salo-Salo Feast" data-price="1699" aria-label="Inquire about Pamilya Salo-Salo Feast">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 2: Artisan Pizzas -->
+          <article class="menu-card" data-category="pizzas">
+            <div class="card-media">
+              <img src="./assets/image2.jpg" alt="Chito's specialty pizzas: Lodi Hawaiian, Werpa Pepperoni, Rapsa Supreme, and Ultimate Sisig" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-specialty">Freshly Baked</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Chito's Specialty Pizzas</h3>
+                <span class="card-price">From &#8369;180</span>
+              </div>
+              <p class="card-savings-pill">Available in 8", 10", &amp; 12"</p>
+              <p class="card-desc">
+                Handcrafted dough topped with premium cheese and fresh savory toppings. Flavors include Lodi Hawaiian, Werpa Pepperoni, Rapsa Supreme, Ultimate Sisig Pizza, and Veggie Pizza.
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">8", 10", 12" Sizes</span>
+                <span class="meta-tag">Thin &amp; Cheesy Crust</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Chito's Specialty Pizzas" data-price="180" aria-label="Inquire about Chito's Specialty Pizzas">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 3: Pork Barbecue on Stick -->
+          <article class="menu-card" data-category="silog-bbq">
+            <div class="card-media">
+              <img src="./assets/image3.jpg" alt="Two skewers of savory grilled pork barbecue served with java rice, pickled atchara, and barbecue sauce" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-grilled">Charbroiled</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Pork Barbecue on Stick</h3>
+                <span class="card-price">&#8369;135</span>
+              </div>
+              <p class="card-savings-pill">2 pcs with Java Rice</p>
+              <p class="card-desc">
+                Two tender, succulent pork barbecue skewers grilled to caramelized perfection in our signature sweet-savory glaze. Served with fragrant java rice, tangy atchara, and spiced dip.
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">Includes Java Rice</span>
+                <span class="meta-tag">House Secret Glaze</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Pork Barbecue on Stick" data-price="135" aria-label="Inquire about Pork Barbecue on Stick">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 4: PorkSilog -->
+          <article class="menu-card" data-category="silog-bbq">
+            <div class="card-media">
+              <img src="./assets/image4.jpg" alt="Crispy breaded porkchop cutlet served with garlic fried rice, sunny-side-up fried egg, and dipping sauce" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-popular">Crowd Favorite</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Crispy PorkSilog</h3>
+                <span class="card-price">&#8369;125</span>
+              </div>
+              <p class="card-savings-pill">All-Day Breakfast</p>
+              <p class="card-desc">
+                A golden, crunchy breaded pork chop cutlet served alongside hot sinangag (garlic fried rice), sunny-side-up egg, fresh sliced tomatoes, and savory seasoned dipping sauce.
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">Garlic Fried Rice</span>
+                <span class="meta-tag">Farm Fresh Egg</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Crispy PorkSilog" data-price="125" aria-label="Inquire about Crispy PorkSilog">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 5: Beef Tapsilog -->
+          <article class="menu-card" data-category="silog-bbq">
+            <div class="card-media">
+              <img src="./assets/image5.jpg" alt="Tender marinated beef tapa flakes with crispy garlic bits, sinangag garlic rice, and fried egg" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-classic">Classic Silog</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Special Beef Tapsilog</h3>
+                <span class="card-price">&#8369;140</span>
+              </div>
+              <p class="card-savings-pill">Authentic Marinated Tapa</p>
+              <p class="card-desc">
+                Tender strips of premium cured beef tapa seasoned with traditional spices, topped with crunchy toasted garlic, and paired with garlic sinangag, sunny egg, and native spiced vinegar.
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">Crispy Garlic Topping</span>
+                <span class="meta-tag">Spiced Lucban Vinegar</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Special Beef Tapsilog" data-price="140" aria-label="Inquire about Special Beef Tapsilog">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+          <!-- Item 6: Lucban Pancit Habhab -->
+          <article class="menu-card" data-category="heritage">
+            <div class="card-media">
+              <img src="./assets/image6.jpg" alt="Authentic Pancit Habhab served on banana leaf in a basket with savory meat and fresh vegetables" class="card-img" loading="lazy" width="400" height="300">
+              <span class="card-tag tag-heritage">Lucban Tradition</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Lucban Pancit Habhab</h3>
+                <span class="card-price">&#8369;95</span>
+              </div>
+              <p class="card-savings-pill">Also available in Party Bilao</p>
+              <p class="card-desc">
+                The pride of Lucban! Handcrafted miki dried flour noodles tossed with tender pork, liver, chayote, carrots, and cabbage on fresh banana leaf. Drizzle with vinegar and eat habhab-style!
+              </p>
+              <div class="card-meta">
+                <span class="meta-tag">Served on Banana Leaf</span>
+                <span class="meta-tag">Party Trays Available</span>
+              </div>
+              <button type="button" class="btn btn-outline btn-block order-trigger" data-dish="Lucban Pancit Habhab" data-price="95" aria-label="Inquire about Lucban Pancit Habhab">
+                Order for Pickup
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Content: Services Showcase Section -->
+    <section class="services-section" id="services" aria-label="Restaurant Services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Convenient &amp; Friendly</span>
+          <h2 class="section-title">How You Can Enjoy Chito's</h2>
+          <p class="section-lead">Whether dining in with friends or picking up your family dinner on your commute, we have you covered.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-box">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h3 class="service-title">Curbside Pickup</h3>
+            <p class="service-desc">Call ahead at <strong>(042) 540 9262</strong>. Pull up to 35 Plaridel St., and our team will safely bring your hot, freshly packed meal directly to your car.</p>
+            <span class="service-highlight">Zero hassle parking</span>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                <path d="M7 2v20"></path>
+                <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Cozy Dine-In</h3>
+            <p class="service-desc">Immerse yourself in our welcoming, air-conditioned dining area decorated with festive Quezon motifs. Perfect for lunch dates, reunions, and Pahiyas travelers.</p>
+            <span class="service-highlight">Family-friendly seating</span>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">Fiesta &amp; Party Bilao</h3>
+            <p class="service-desc">Celebrating a birthday or special milestone? Order our large bilao pans of Pancit Habhab, BBQ bundles, and whole chicken platters in advance.</p>
+            <span class="service-highlight">Custom celebration sets</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Component Container: FAQ Accordion -->
+    <section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
+      <div class="container faq-container">
+        <div class="section-header">
+          <span class="section-kicker">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-lead">Find quick answers about our location, ordering options, hours, and dishes.</p>
+        </div>
+
+        <div class="accordion" id="faq-accordion">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Where exactly is Chito's Restaurant located?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>We are conveniently situated at <strong>35 Plaridel St., Lucban, Philippines, 4328</strong>. We are easily accessible from Lucena and the main Lucban town proper, making us an ideal stop for tourists visiting the Lucban Church, Kamay ni Hesus, and local fiestas.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How do I order for curbside pickup?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Simply call our phone line at <strong>(042) 540 9262</strong> or submit an inquiry using our online form below. Let us know your preferred pickup time and vehicle details. When you arrive at Plaridel St., our staff will hand your order to you without you having to find street parking.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What are your business operating hours?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Chito's is open daily to serve you from breakfast through dinner (typically 8:00 AM to 9:00 PM). During holiday seasons and the Pahiyas Festival, we recommend ordering in advance.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can we customize pizza toppings or order party bilao sets?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes! Our specialty pizzas (Lodi Hawaiian, Werpa Pepperoni, Rapsa Supreme, Ultimate Sisig, and Veggie) are available in 8-inch, 10-inch, and 12-inch sizes. We also prepare party bilaos of Pancit Habhab and BBQ platters with 24 hours advance notice.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What payment methods do you accept?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>We accept Cash, GCash, and local bank transfers. For curbside pickup, you can pay via GCash upon confirmation or cash upon delivery to your vehicle.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Inquiry Section -->
+    <section class="contact-section" id="contact" aria-label="Contact Information and Inquiry Form">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 class="section-title">Visit Us or Place an Inquiry</h2>
+          <p class="section-lead">Have a question or looking to place an advance order for curbside pickup? Drop us a message or call us directly.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Direct Contact Cards -->
+          <aside class="contact-info-col" aria-label="Restaurant contact details">
+            <div class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-details">
+                <h3 class="contact-card-title">Our Address</h3>
+                <address class="contact-card-text">
+                  35 Plaridel St., Lucban, Philippines, 4328
+                </address>
+                <span class="contact-hint">Convenient access near Lucena - Lucban artery</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-card-details">
+                <h3 class="contact-card-title">Phone Hotline</h3>
+                <p class="contact-card-text">
+                  <a href="tel:0425409262" class="contact-link">(042) 540 9262</a>
+                </p>
+                <span class="contact-hint">Call for instant orders &amp; curbside arrival</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-details">
+                <h3 class="contact-card-title">Email Us</h3>
+                <p class="contact-card-text">
+                  <a href="mailto:chitos0409@yahoo.com" class="contact-link">chitos0409@yahoo.com</a>
+                </p>
+                <span class="contact-hint">Event inquiries &amp; feedback</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div class="contact-card-details">
+                <h3 class="contact-card-title">Instagram</h3>
+                <p class="contact-card-text">
+                  <a href="https://instagram.com/chitosuulitkasasarap" target="_blank" rel="noopener noreferrer" class="contact-link">@chitosuulitkasasarap</a>
+                </p>
+                <span class="contact-hint">Tag us in your food photos!</span>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Working Static Contact Form UI -->
+          <div class="contact-form-col">
+            <div class="form-wrapper">
+              <h3 class="form-title">Send Us a Message or Order Inquiry</h3>
+              <p class="form-subtitle">Fill in the details below and we will confirm your order or answer your inquiry promptly.</p>
+
+              <form id="contact-form" class="site-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="full-name" class="form-label">Your Full Name <span class="required" aria-hidden="true">*</span></label>
+                    <input type="text" id="full-name" name="fullName" class="form-control" placeholder="e.g. Maria Santos" required autocomplete="name">
+                    <span class="form-error" id="name-error" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phone-number" class="form-label">Mobile Number <span class="required" aria-hidden="true">*</span></label>
+                    <input type="tel" id="phone-number" name="phoneNumber" class="form-control" placeholder="e.g. 0917 123 4567 or (042) 540 9262" required autocomplete="tel">
+                    <span class="form-error" id="phone-error" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="email-address" class="form-label">Email Address (Optional)</label>
+                    <input type="email" id="email-address" name="emailAddress" class="form-control" placeholder="e.g. maria@example.com" autocomplete="email">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="service-type" class="form-label">Type of Service <span class="required" aria-hidden="true">*</span></label>
+                    <select id="service-type" name="serviceType" class="form-control" required>
+                      <option value="" disabled selected>Select service</option>
+                      <option value="curbside">Curbside Pickup</option>
+                      <option value="dine-in">Dine-In Reservation</option>
+                      <option value="party-bilao">Fiesta / Party Bilao Pre-order</option>
+                      <option value="inquiry">General Question / Inquiry</option>
+                    </select>
+                    <span class="form-error" id="service-error" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="order-details" class="form-label">Order Items or Message <span class="required" aria-hidden="true">*</span></label>
+                  <textarea id="order-details" name="orderDetails" class="form-control" rows="4" placeholder="Mention dishes (e.g., Pamilya Salo-salo, 10-inch Werpa Pepperoni Pizza, PorkSilog) or any special requests..." required></textarea>
+                  <span class="form-error" id="message-error" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-button">
+                  <span class="btn-text">Submit Order Inquiry</span>
+                  <span class="btn-loading-spinner" aria-hidden="true"></span>
+                </button>
+
+                <div class="form-alert" id="form-alert" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Component Container: Native Accessible Dialog Modal for Quick Order -->
+    <dialog id="order-modal" class="order-dialog" aria-labelledby="modal-heading">
+      <div class="modal-dialog-content">
+        <header class="modal-header">
+          <div class="modal-header-text">
+            <h3 id="modal-heading" class="modal-title">Quick Order / Pickup Request</h3>
+            <p class="modal-sub">Chito's Curbside &amp; Dine-in Ordering</p>
+          </div>
+          <button type="button" class="modal-close-btn" id="modal-close" aria-label="Close order dialog">&times;</button>
+        </header>
+
+        <form id="quick-order-form" class="modal-form">
+          <div class="form-group">
+            <label for="modal-dish-name" class="form-label">Selected Item</label>
+            <input type="text" id="modal-dish-name" name="dishName" class="form-control" readonly>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="modal-quantity" class="form-label">Quantity</label>
+              <input type="number" id="modal-quantity" name="quantity" class="form-control" value="1" min="1" max="20" required>
+            </div>
+            <div class="form-group">
+              <label for="modal-service" class="form-label">Service Type</label>
+              <select id="modal-service" name="service" class="form-control" required>
+                <option value="curbside" selected>Curbside Pickup</option>
+                <option value="dine-in">Dine-In</option>
+                <option value="takeout">Standard Takeout</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="modal-customer-name" class="form-label">Your Name <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="modal-customer-name" name="customerName" class="form-control" placeholder="e.g. Maria Santos" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="modal-contact-phone" class="form-label">Mobile Phone <span class="required" aria-hidden="true">*</span></label>
+              <input type="tel" id="modal-contact-phone" name="contactPhone" class="form-control" placeholder="09xx xxx xxxx" required autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="modal-notes" class="form-label">Special Instructions (e.g. extra sauce, pickup time)</label>
+            <textarea id="modal-notes" name="notes" class="form-control" rows="2" placeholder="e.g. Ready for pickup at 12:30 PM"></textarea>
+            <span class="contact-hint">&#128196; An official .txt receipt will automatically download upon confirmation.</span>
+          </div>
+
+          <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" id="modal-cancel-btn">Cancel</button>
+            <button type="submit" class="btn btn-primary">Confirm Pickup Request</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+  </main>
+
+  <!-- Footer Landmark -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+        <!-- Footer Brand Column -->
+        <div class="footer-brand-col">
+          <a href="#top" class="footer-brand" aria-label="Chito's Restaurant home">
+            <img src="./assets/icon.jpg" alt="Chito's Restaurant smiling chicken mascot" class="footer-logo" width="50" height="50">
+            <span class="footer-brand-name">Chito's Restaurant</span>
+          </a>
+          <p class="footer-tagline">&ldquo;Uulit ka sa Sarap!&rdquo;</p>
+          <p class="footer-bio">
+            Serving authentic Quezon flavors, fast food delights, and family gatherings in Lucban and Lucena since April 1, 2009.
+          </p>
+          <div class="footer-social-links" aria-label="Social media links">
+            <a href="https://instagram.com/chitosuulitkasasarap" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Chito's on Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="tel:0425409262" class="social-icon-btn" aria-label="Call Chito's phone hotline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+            <a href="mailto:chitos0409@yahoo.com" class="social-icon-btn" aria-label="Email Chito's restaurant">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <nav class="footer-links-col" aria-label="Footer Quick Links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-link-list" role="list">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Chito's</a></li>
+            <li><a href="#menu" class="footer-link">Menu &amp; Specialties</a></li>
+            <li><a href="#services" class="footer-link">Curbside &amp; Dine-in</a></li>
+            <li><a href="#faq" class="footer-link">FAQs</a></li>
+            <li><a href="#contact" class="footer-link">Contact &amp; Location</a></li>
+          </ul>
+        </nav>
+
+        <!-- Operating Hours & Contact Summary -->
+        <div class="footer-info-col">
+          <h4 class="footer-heading">Store Information</h4>
+          <ul class="footer-contact-list" role="list">
+            <li>
+              <strong>Address:</strong><br>
+              35 Plaridel St., Lucban, Philippines, 4328
+            </li>
+            <li>
+              <strong>Hotline:</strong><br>
+              <a href="tel:0425409262" class="footer-contact-link">(042) 540 9262</a>
+            </li>
+            <li>
+              <strong>Email:</strong><br>
+              <a href="mailto:chitos0409@yahoo.com" class="footer-contact-link">chitos0409@yahoo.com</a>
+            </li>
+            <li>
+              <strong>Hours:</strong><br>
+              Open Daily &bull; Curbside Pickup &amp; Dine-In
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          &copy; 2026 Chito's Restaurant. All rights reserved. Founded April 1, 2009 in Lucban, Quezon.
+        </p>
+        <p class="developer-note">
+          Designed with semantic HTML5, CSS3, &amp; ES6 Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Relative Vanilla JavaScript -->
+  <script src="./script.js" defer></script>
+</body>
+</html>
